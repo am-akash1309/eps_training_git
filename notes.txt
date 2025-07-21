@@ -1,0 +1,20 @@
+Git is used along with Github to link the local folders (in the system) and the global folder (in the Github) to enable multiple users to efectively make changes
+
+To configure git: (Doing it once is enough)
+git config --global user.name "am-akash1309"
+
+To config email id:
+git config --global user.email "sakashmail@gmail.com"
+
+Cloning repo:
+git clone https://github.com/am-akash1309/eps_training_git.git
+
+To list all the directories: Navigate into the folder first, 
+    cd eps_training_git
+    
+    dir/a (Windows)
+    ls -a (Linus and Mac)
+
+2 terms: Staged and Unstaged
+    - Stages: Means putting a letter in the envolpe
+    git add notes.txt
