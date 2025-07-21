@@ -16,5 +16,26 @@ To list all the directories: Navigate into the folder first,
     ls -a (Linus and Mac)
 
 2 terms: Staged and Unstaged
-    - Stages: Means putting a letter in the envolpe
+    - Stages: Similar to putting a letter in the envolpe
+    git init
     git add notes.txt
+
+    - Commit:
+    git commit -m "fix:message"             //Means we fixed some bugs
+    git commit -m "feat:adding index.html"  //Adding additional features
+    git commit -m "refactor:message"        //Redoing aparticular file
+    git commit -m "docs:message"            //Adding a documentation
+    git commit -m "!fix:breaking message"   //Need to be fixed immeditely
+    git commit -m "!feat:breaking message"  //Need to be added immeditely
+    git commit -m "chore:message"           //Unimportant message
+
+    -Branches: There are nothing but the different folders within the repository
+
+    git remote add origin https://github.com/am-akash1309/eps_training_git.git
+    (Adding the origin)
+
+    git branch -M main
+    (Renaming the current branch to main. "-M" for renaming)
+
+    git push -u origin main
+    (Pushing the unstaged data from origin to main)
