@@ -55,3 +55,20 @@ git diff
 (Will display the changes that has been made, in red and green.)
     Red = For the lines that has been removed
     Green = For the lines that has been added
+
+Git is the version control software which allows us to pull any earlier version any time
+
+git branch
+(If it's green, we are in that particular branch)
+
+git checkout -b "frontend"
+(Used to create a branch and moves to this new branch)
+
+git push origin frontend
+(To push in the new branch)
+
+git checkout main
+(Will switch us to the excisting branch called "main")
+
+If there is a conflict, we should first give "git pull" before pushing
+We can either accept both, or accept any one of the current or the incoming chnages
