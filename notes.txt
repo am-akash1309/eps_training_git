@@ -39,3 +39,6 @@ To list all the directories: Navigate into the folder first,
 
     git push -u origin main
     (Pushing the unstaged data from origin to main)
+
+    Or just:
+    git push
