@@ -42,3 +42,16 @@ To list all the directories: Navigate into the folder first,
 
     Or just:
     git push
+
+git pull
+(The changes in the global repository will be updated into the local repo)
+
+git status
+(On branch main it will display the status of the untracked files)
+    M = Modifies, but haven't been added to the global repo
+    U = The new file haven't been added to the global repo
+
+git diff
+(Will display the changes that has been made, in red and green.)
+    Red = For the lines that has been removed
+    Green = For the lines that has been added
